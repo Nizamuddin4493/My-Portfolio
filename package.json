@@ -1,5 +1,5 @@
 {
-  "name": "Hello-World",
+  "name": "my-portfolio",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,15 +7,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nizamuddin4493/Hello-World.git"
+    "url": "git+https://github.com/Nizamuddin4493/My-Portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Nizamuddin4493/Hello-World/issues"
+    "url": "https://github.com/Nizamuddin4493/My-Portfolio/issues"
   },
-  "homepage": "https://github.com/Nizamuddin4493/Hello-World#readme",
+  "homepage": "https://github.com/Nizamuddin4493/My-Portfolio#readme",
   "devDependencies": {
     "hint": "^6.1.4",
     "stylelint": "^13.13.1",
