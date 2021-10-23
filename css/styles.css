@@ -1,72 +1,81 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.nvbg{
-    background-color: #3E3C3C;
-    color: white;
-}
-.navcontaner{
-    max-width: 1350px;
-    margin: auto;
-    padding: 0 10px 0 10px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-}
-.navbar{
-    display: flex;
-    align-items: center;
-    padding: 20px;
-}
-nav{
-    flex: 1;
-    text-align: right;
-    
-}
-.rowcontainer{
-    background-color: #1C1A19;
-}
-.row{
-        max-width: 1350px;
-    margin: auto;
-    padding: 0 10px 0 10px;
 
-    display: flex;
-    flex-direction: column;
-    background-image: url("../images/Group.png");
-    background-position: right bottom, left top;
-    background-repeat: no-repeat, repeat;
-    background-size: 120px 210px;
-    min-height: 600px;
+.nvbg {
+  background-color: #3e3c3c;
+  color: white;
 }
-.content{
-    margin-top: 120px;
-    padding-left: 20px;
+
+.navcontaner {
+  max-width: 1350px;
+  margin: auto;
+  padding: 0 10px 0 10px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
 }
-.headline{
-    color: #FF6B00;
-    font-family: 'Crete Round', serif;
-    font-size: 32px;
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
 }
-.supperting-text{
-    color: #FFF;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 15px;
+
+nav {
+  flex: 1;
+  text-align: right;
 }
-.description{
-    color: #FFF;
-    margin-top: 15px;
-    font-family: 'Poppins', sans-serif;
-    max-width: 500px;
+
+.rowcontainer {
+  background-color: #1c1a19;
 }
-.social{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    max-width: 200px;
-    margin-top: 15px;
-    margin-left: 15px;
+
+.row {
+  max-width: 1350px;
+  margin: auto;
+  padding: 0 10px 0 10px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/Group.png");
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  background-size: 120px 210px;
+  min-height: 600px;
+}
+
+.content {
+  margin-top: 120px;
+  padding-left: 20px;
+}
+
+.headline {
+  color: #ff6b00;
+  font-family: 'Crete Round', serif;
+  font-size: 32px;
+}
+
+.supperting-text {
+  color: rgb(240, 228, 228);
+  font-family: 'Roboto', sans-serif;
+  margin-top: 15px;
+}
+
+.description {
+  color: #fff;
+  margin-top: 15px;
+  font-family: 'Poppins', sans-serif;
+  max-width: 500px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 200px;
+  margin-top: 15px;
+  margin-left: 15px;
 }
