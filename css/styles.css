@@ -9,7 +9,7 @@
   color: white;
 }
 
-.navcontaner {
+.top-contaner {
   max-width: 1350px;
   margin: auto;
   padding: 0 10px 0 10px;
@@ -25,7 +25,12 @@
   padding: 20px;
 }
 
-nav {
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-icon {
   flex: 1;
   text-align: right;
 }
@@ -72,10 +77,14 @@ nav {
 }
 
 .social {
-  display: flex;
+  margin: 10px 0 0 15px;
+}
+
+.social ul li {
+  display: inline;
   justify-content: space-around;
   align-items: center;
   max-width: 200px;
   margin-top: 15px;
-  margin-left: 15px;
+  padding-left: 15px;
 }
