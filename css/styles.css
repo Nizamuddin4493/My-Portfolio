@@ -52,10 +52,10 @@ nav {
   padding-left: 20px;
 }
 
-.headline {
+.headline h1 {
   color: #ff6b00;
   font-family: 'Crete Round', serif;
-  font-size: 32px;
+  font-size: 50px;
 }
 
 .supperting-text {
