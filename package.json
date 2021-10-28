@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/Nizamuddin4493/My-Portfolio/issues"
   },
-  "homepage": "https://github.com/Nizamuddin4493/My-Portfolio#readme",
+  "feature-portfolio": "https://github.com/Nizamuddin4493/My-Portfolio#readme",
   "devDependencies": {
     "hint": "^6.1.4",
     "stylelint": "^13.13.1",
