@@ -88,3 +88,71 @@
   margin-top: 15px;
   padding-left: 15px;
 }
+
+.main-body {
+  background-color: #fff;
+}
+
+.main-row {
+  max-width: 1350px;
+  margin: 100px auto;
+  padding: 0 30px 0 30px;
+  min-height: 600px;
+  border: 1px solid red;
+}
+
+.main-row h1 {
+  font-family: Crete Round, serif;
+  font-size: 40px;
+}
+
+.h-line {
+  margin-top: 40px;
+}
+
+.story-section {
+  margin-top: 60px;
+}
+
+.story-section img {
+  width: 295px;
+}
+
+.h1-tag h1 {
+  font-family: Crete Round, serif;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.main-body p {
+  font-family: Inter, serif;
+  font-size: 15px;
+}
+
+.lang-btn button {
+  background-color: #fff;
+  border: 1px solid gray;
+  color: #000;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-family: inter, serif;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.see-prjct-btn button {
+  background-color: #ff6b00;
+  border: none;
+  color: #fff;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: inter, serif;
+  margin-top: 10px;
+}
