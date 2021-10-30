@@ -90,6 +90,7 @@
 }
 
 .main-body {
+  display: grid;
   background-color: #fff;
 }
 
@@ -100,7 +101,7 @@
   min-height: 600px;
 }
 
-.main-row h1 {
+.main-row h2 {
   font-family: Crete Round, serif;
   font-size: 40px;
 }
@@ -117,7 +118,7 @@
   width: 295px;
 }
 
-.h1-tag h1 {
+.h1-tag h2 {
   font-family: Crete Round, serif;
   font-size: 30px;
   margin-top: 20px;
@@ -127,6 +128,14 @@
 .main-body p {
   font-family: Inter, serif;
   font-size: 15px;
+}
+
+.lang-btn ul {
+  display: flex;
+}
+
+.lang-btn ul li {
+  list-style: none;
 }
 
 .lang-btn button {
@@ -180,6 +189,7 @@
   font-family: inter, serif;
   min-width: 298px;
   margin-top: 10px;
+  align-items: flex-end;
 }
 
 .content-data h1 {
@@ -202,6 +212,15 @@
   margin-left: 10px;
   display: grid;
   grid-template-columns: 60px 93px auto;
+}
+
+.lang-btn2 ul {
+  display: flex;
+}
+
+.lang-btn2 ul li {
+  list-style: none;
+  padding-right: 10px;
 }
 
 .lang-btn2 button {
@@ -289,6 +308,10 @@
   height: 30px;
 }
 
+.img-lang h1 {
+  font-family: inter, serif;
+}
+
 .f-lang ul {
   text-decoration: none;
   list-style: none;
@@ -306,6 +329,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.img-frameWorks h1 {
+  font-family: inter, serif;
 }
 
 .img-frameWorks img {
