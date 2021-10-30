@@ -98,7 +98,6 @@
   margin: 100px auto;
   padding: 0 30px 0 30px;
   min-height: 600px;
-  border: 1px solid red;
 }
 
 .main-row h1 {
@@ -217,5 +216,169 @@
   font-size: 14px;
   font-family: inter, serif;
   margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.footer-main {
+  color: #ff6b00;
+  background-color: #1c1a19;
+  min-height: 1100px;
+}
+
+.about-me-bg {
+  min-height: 500px;
+  background-image: url("../images/footer-bg.png");
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  background-size: 120px 210px;
+}
+
+.about-me {
+  background-color: #1c1a19;
+  padding: 0 30px 0 30px;
+}
+
+.about-me-col h1 {
+  color: #ff6b00;
+  font-family: Crete Round, serif;
+  font-size: 60px;
+  font-weight: 400;
+  padding-top: 70px;
+}
+
+.about-me-col p {
+  font-family: Inter, serif;
+  font-weight: 200;
+  font-size: 14px;
+  color: #fff;
+}
+
+.about-me-col button {
+  background-color: #ff6b00;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-family: Inter, serif;
+  margin-top: 30px;
+  border: none;
+}
+
+.footer-nav {
+  min-height: 200px;
+  color: #fff;
+}
+
+.f-line {
+  padding: 0 30px;
+  margin-top: 10px;
+}
+
+.f-lang {
+  padding: 80px 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.img-lang {
+  display: flex;
+  justify-content: center;
+}
+
+.img-lang img {
+  padding-right: 10px;
+  height: 30px;
+}
+
+.f-lang ul {
+  text-decoration: none;
+  list-style: none;
+  padding-top: 30px;
+}
+
+.f-lang ul li {
+  margin-top: 20px;
+  font-family: inter, serif;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.img-frameWorks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-frameWorks img {
+  height: 18px;
+  padding-right: 20px;
+}
+
+.motivation {
+  min-height: 250px;
+  padding: 50px 30px;
+  text-align: center;
+}
+
+.motivation p {
+  font-family: Inter, serif;
+  color: #172b4d;
+  font-size: 30px;
+}
+
+.form {
+  min-height: 300px;
+  padding: 50px 30px;
+  text-align: center;
+}
+
+.form input {
+  width: 100%;
+  padding: 30px 20px 10px 20px;
+  border: none;
+  border-bottom: 2px solid #dbd8d7;
+}
+
+.form textarea {
+  margin-top: 15px;
+  border: none;
+  background-color: #fbf8f7;
+  padding: 15px 0  0 20px;
+}
+
+.form button {
+  background-color: #ff6b00;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-family: Inter, serif;
+  margin-top: 30px;
+  border: none;
+}
+
+.f-social {
+  margin: auto;
+  align-items: center;
+}
+
+.f-social ul {
+  display: flex;
+  justify-content: center;
+  padding: 20px 10px;
+}
+
+.f-social ul li {
+  display: inline;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 200px;
+  margin-top: 15px;
+  padding-left: 15px;
+}
+
+hr.f-line {
+  margin: auto;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 20%;
   margin-bottom: 20px;
 }
