@@ -156,3 +156,66 @@
   font-family: inter, serif;
   margin-top: 10px;
 }
+
+.pro-art-paint {
+  margin-top: 20px;
+}
+
+.content-data {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/Img-Placeholder.png");
+  background-repeat: no-repeat, repeat;
+  height: 380px;
+}
+
+.content-data-btn {
+  background-color: #ff6b00;
+  border: none;
+  color: #fff;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: inter, serif;
+  min-width: 298px;
+  margin-top: 10px;
+}
+
+.content-data h1 {
+  font-family: Crete Round, serif;
+  color: #fff;
+  font-size: 30px;
+  margin-top: 90px;
+  padding-left: 10px;
+}
+
+.content-data p {
+  font-family: Inter, serif;
+  font-size: 15px;
+  color: #fff;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.lang-btn2 {
+  margin-left: 10px;
+  display: grid;
+  grid-template-columns: 60px 93px auto;
+}
+
+.lang-btn2 button {
+  background-color: #000;
+  opacity: 40%;
+  border: none;
+  color: #fff;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-family: inter, serif;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
