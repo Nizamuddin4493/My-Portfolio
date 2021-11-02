@@ -221,6 +221,7 @@
 .lang-btn2 ul li {
   list-style: none;
   padding-right: 10px;
+  float: right;
 }
 
 .lang-btn2 button {
@@ -347,9 +348,10 @@
 }
 
 .motivation p {
-  font-family: Inter, serif;
+  font-family: "Inter", sans-serif;
   color: #172b4d;
   font-size: 30px;
+  font-weight: 700;
 }
 
 .form {
