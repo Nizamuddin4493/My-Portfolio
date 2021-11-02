@@ -372,7 +372,8 @@
   padding: 15px 0  0 20px;
 }
 
-.form button {
+.form input[type=submit]
+{
   background-color: #ff6b00;
   color: #fff;
   padding: 10px 15px;
