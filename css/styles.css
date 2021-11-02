@@ -351,16 +351,17 @@
   font-family: 'Inter', sans-serif;
   color: #172b4d;
   font-style: normal;
-  font-weight: bold;
   font-size: 32px;
   line-height: 44px;
   text-align: center;
   font-weight: 700;
 }
-.contact-form {
+
+/*.contact-form {
   height: auto;
 }
-/* .form {
+
+.form {
   min-height: 300px;
   padding: 50px 30px;
   text-align: center;
@@ -457,7 +458,7 @@ textarea {
   width: 284px;
   height: 102px;
   padding: 12px;
-  background: #FBF8F7;
+  background: #fbf8f7;
 }
 
 textarea::placeholder {
@@ -485,6 +486,7 @@ textarea:focus {
 .comment {
   padding-bottom: 0;
 }
+
 .submit {
   font-family: 'Inter', sans-serif;
   color: white;
