@@ -355,6 +355,7 @@
   font-size: 32px;
   line-height: 44px;
   text-align: center;
+  font-weight: 700;
 }
 .contact-form {
   height: auto;
@@ -439,8 +440,8 @@ input:placeholder-shown {
 }
 
 .form-input {
+  border: none;
   border-bottom: 1px solid #dbd8d7;
-  
 }
 
 input:focus {
@@ -448,7 +449,7 @@ input:focus {
 }
 
 textarea {
-  color: #091e42;
+  color: #3c3a39;
   font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -456,13 +457,16 @@ textarea {
   width: 284px;
   height: 102px;
   padding: 12px;
+  background: #FBF8F7;
 }
 
 textarea::placeholder {
   font-family: 'Inter', sans-serif;
   font-size: 15px;
-  font-weight: 400;
-  line-height: 15px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  color: #3c3a39;
 }
 
 textarea:focus {
@@ -482,17 +486,18 @@ textarea:focus {
   padding-bottom: 0;
 }
 .submit {
+  font-family: 'Inter', sans-serif;
   color: white;
-  border-radius: 4px;
   background: #ff6b00;
   border: none;
   cursor: pointer;
   text-align: center;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 17px;
   line-height: 24px;
   padding: 12px;
   margin-left: 30%;
+  margin-bottom: 100px;
 }
 
 .submit:hover {
@@ -509,7 +514,7 @@ textarea:focus {
 .f-social {
   margin: auto;
   align-items: center;
-  height: auto;
+  height: 135px;
 }
 
 .f-social ul {
@@ -533,4 +538,5 @@ hr.f-line {
   border: 2px solid black;
   border-radius: 20%;
   margin-bottom: 20px;
+  padding-top: 7%;
 }
