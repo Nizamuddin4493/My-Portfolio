@@ -378,9 +378,16 @@
   color: #fff;
   padding: 10px 15px;
   font-size: 15px;
-  font-family: Inter, serif;
+  font-family: 'Inter', sans-serif;
   margin-top: 30px;
   border: none;
+}
+
+.form input[type=submit]:hover {
+  background-color: #fff5e1;
+  color: #ff6b00;
+  border: 1px solid #ff6b00;
+  font-family: 'Inter', sans-serif;
 }
 
 .f-social {
