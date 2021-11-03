@@ -357,62 +357,6 @@
   font-weight: 700;
 }
 
-/* .contact-form {
-  height: auto;
-}
-
-.form {
-  min-height: 300px;
-  padding: 50px 30px;
-  text-align: center;
-  padding-top: 0;
-}
-
-.form input {
-  padding: 30px 20px 10px 20px;
-  border: none;
-  border-bottom: 2px solid #dbd8d7;
-}
-
-.form input text {
-  width: 327px;
-  height: 18px;
-  left: 16px;
-  right: 16px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 24px;
-}
-
-.form textarea {
-  margin-top: 15px;
-  border: none;
-  background-color: #fbf8f7;
-  padding: 15px 0  0 20px;
-}
-
-.form input[type=submit] {
-  background-color: #ff6b00;
-  color: #fff;
-  padding: 10px 15px;
-  font-size: 15px;
-  font-family: 'Inter', sans-serif;
-  margin-top: 30px;
-  border: none;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 24px;
-}
-
-.form input[type=submit]:hover {
-  background-color: #fff5e1;
-  color: #ff6b00;
-  border: 1px solid #ff6b00;
-  font-family: 'Inter', sans-serif;
-} */
-
 .contact-form {
   display: flex;
   justify-content: center;
