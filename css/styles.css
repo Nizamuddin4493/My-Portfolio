@@ -332,7 +332,7 @@
 }
 
 .img-frameWorks h1 {
-  font-family: inter, serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .img-frameWorks img {
@@ -344,47 +344,123 @@
   min-height: 250px;
   padding: 50px 30px;
   text-align: center;
+  padding-bottom: 0;
 }
 
 .motivation p {
-  font-family: Inter, serif;
+  font-family: 'Inter', sans-serif;
   color: #172b4d;
-  font-size: 30px;
-}
-
-.form {
-  min-height: 300px;
-  padding: 50px 30px;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 44px;
   text-align: center;
+  font-weight: 700;
 }
 
-.form input {
-  width: 100%;
-  padding: 30px 20px 10px 20px;
-  border: none;
-  border-bottom: 2px solid #dbd8d7;
+.contact-form {
+  display: flex;
+  justify-content: center;
 }
 
-.form textarea {
-  margin-top: 15px;
-  border: none;
-  background-color: #fbf8f7;
-  padding: 15px 0  0 20px;
-}
-
-.form button {
-  background-color: #ff6b00;
-  color: #fff;
-  padding: 10px 15px;
+input {
+  color: #091e42;
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
-  font-family: Inter, serif;
-  margin-top: 30px;
+  font-weight: 400;
+  line-height: 15px;
+  padding-left: 16px;
+}
+
+input[name="name"],
+input[name="email-address"] {
+  width: 290px;
+  height: 48px;
+}
+
+input:placeholder-shown {
+  font-family: 'Inter', sans-serif;
+  color: #6b778c;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.form-input {
   border: none;
+  border-bottom: 1px solid #dbd8d7;
+}
+
+input:focus {
+  outline: 1px solid #ff6b00;
+}
+
+textarea {
+  color: #3c3a39;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+  width: 284px;
+  height: 102px;
+  padding: 12px;
+  background: #fbf8f7;
+}
+
+textarea::placeholder {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  color: #3c3a39;
+}
+
+textarea:focus {
+  outline: 1px solid #ff6b00;
+}
+
+.contact-form ul {
+  padding-left: 10px;
+  list-style: none;
+}
+
+.contact-form ul li {
+  padding: 0.7rem;
+}
+
+.comment {
+  padding-bottom: 0;
+}
+
+.submit {
+  font-family: 'Inter', sans-serif;
+  color: white;
+  background: #ff6b00;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 12px;
+  margin-left: 30%;
+  margin-bottom: 100px;
+}
+
+.submit:hover {
+  opacity: 60%;
+}
+
+.e-mail {
+  color: #42526e;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
 }
 
 .f-social {
   margin: auto;
   align-items: center;
+  height: 135px;
 }
 
 .f-social ul {
@@ -408,4 +484,5 @@ hr.f-line {
   border: 2px solid black;
   border-radius: 20%;
   margin-bottom: 20px;
+  padding-top: 7%;
 }

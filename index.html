@@ -197,12 +197,25 @@
       <div class="motivation">
         <p>I'm always<br> interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
       </div>
-      <div class="form">
-        <input type="text" placeholder="Full Name">
-        <input type="text" placeholder="Email Address">
-        <textarea name="text" id="#" cols="37" rows="7" placeholder="Enter Your Text"></textarea>
-        <button>Git in Touch</button>
-      </div>
+      <form class="contact-form" action="https://formspree.io/f/mjvjqwaa" method="POST">
+        <ul>
+          <li>
+            <input type="text" name="name" class="form-input" placeholder="Full name" maxlength="30" required>
+          </li>
+          <li>
+            <input type="email" name="email-address" class="form-input" placeholder="Email address" required>                           
+          </li>
+          <li class="comment">    
+            <textarea name="comment" maxlength="500" class="form-input" placeholder="Enter text here" required></textarea>
+          </li>
+          <li>
+            <div class="contact-illustration"></div>
+          </li>
+          <li> 
+            <input class="submit" type="submit" name="submit" value="Get in touch">
+          </li>  
+        </ul>     
+      </form>
       <hr>
       <div class="f-social">
         <ul>
