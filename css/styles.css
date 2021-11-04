@@ -9,64 +9,79 @@
   color: white;
 }
 
-.top-contaner {
-  max-width: 1350px;
-  margin: auto;
-  padding: 0 10px 0 10px;
-  font-family: Inter, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-}
-
 .navbar {
+  max-width: 100%;
+  margin: 0 10%;
   display: flex;
   align-items: center;
   padding: 20px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .navbar a {
   text-decoration: none;
   color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .nav-icon {
   flex: 1;
-  text-align: right;
+}
+
+.nav-icon ul {
+  display: flex;
+  float: right;
+  list-style: none;
+}
+
+.nav-icon ul li a {
+  list-style: none;
+  padding-left: 30px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
 }
 
 .rowcontainer {
   background-color: #1c1a19;
+  background-image: url("../images/Illustration-header.png");
+  background-position: right top;
+  background-repeat: no-repeat, repeat;
+  background-size: 500px 600px;
+  height: 560px;
 }
 
 .row {
-  max-width: 1350px;
-  margin: auto;
-  padding: 0 10px 0 10px;
+  max-width: 100%;
   display: flex;
-  flex-direction: column;
-  background-image: url("../images/Group.png");
-  background-position: right bottom, left top;
-  background-repeat: no-repeat, repeat;
-  background-size: 120px 210px;
-  min-height: 600px;
+  flex-direction: row;
+  margin: 0 3%;
+  padding-top: 150px;
 }
 
 .content {
-  margin-top: 120px;
-  padding-left: 20px;
+  padding: 0 0 0 5px;
+  margin: 0 6.5%;
 }
 
 .headline h1 {
   color: #ff6b00;
   font-family: 'Crete Round', serif;
   font-size: 50px;
+  font-weight: 400;
 }
 
-.supperting-text {
-  color: rgb(240, 228, 228);
-  font-family: 'Roboto', sans-serif;
+.supperting-text h2 {
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
   margin-top: 15px;
+  font-weight: 500;
+  font-size: 32px;
 }
 
 .description {
@@ -77,16 +92,21 @@
 }
 
 .social {
-  margin: 10px 0 0 15px;
+  /* border: 1px solid yellow; */
+  max-width: 50px;
+}
+
+.social ul {
+  display: block;
+  margin-top: 60px;
+  list-style: none;
 }
 
 .social ul li {
-  display: inline;
   justify-content: space-around;
   align-items: center;
   max-width: 200px;
   margin-top: 15px;
-  padding-left: 15px;
 }
 
 .main-body {
