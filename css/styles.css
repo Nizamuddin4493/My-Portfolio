@@ -214,8 +214,16 @@
   margin-top: 10px;
 }
 
-.pro-art-paint {
+.grid-temp {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 50px;
   margin-top: 20px;
+}
+
+.r1-c1, .r1-c2, .r1-c3 {
+  width: 320px;
 }
 
 .content-data {
@@ -223,7 +231,8 @@
   flex-direction: column;
   background-image: url("../images/Img-Placeholder.png");
   background-repeat: no-repeat, repeat;
-  height: 380px;
+  height: 400px;
+  width: 320px;
 }
 
 .content-data-btn {
@@ -235,14 +244,26 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  font-family: inter, serif;
-  min-width: 298px;
-  margin-top: 10px;
-  align-items: flex-end;
+  font-family: 'inter', serif;
+  width: 320px;
+  margin-top: 35px;
+}
+
+.content-data-btn:hover {
+  background-color: #fff;
+  border: 1px solid #ff6b00;
+  color: #ff6b00;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Inter', serif;
+  margin-top: 35px;
 }
 
 .content-data h1 {
-  font-family: Crete Round, serif;
+  font-family: 'Crete Round', serif;
   color: #fff;
   font-size: 30px;
   margin-top: 90px;
@@ -272,7 +293,7 @@
   padding-right: 10px;
 }
 
-.lang-btn2 button {
+.lang-btn-2 {
   background-color: #000;
   opacity: 40%;
   border: none;
@@ -282,7 +303,7 @@
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
-  font-family: inter, serif;
+  font-family: 'Inter', serif;
   margin-top: 10px;
   margin-bottom: 20px;
 }
@@ -291,44 +312,59 @@
   color: #ff6b00;
   background-color: #1c1a19;
   min-height: 1100px;
+  width: 100%;
+  padding: 0 10%;
 }
 
 .about-me-bg {
   min-height: 500px;
-  background-image: url("../images/footer-bg.png");
-  background-position: right bottom, left top;
+  background-image: url("../images/about-me-bg.png");
+  background-position: right, left top;
   background-repeat: no-repeat, repeat;
-  background-size: 120px 210px;
+  background-size: 520px 310px;
 }
 
 .about-me {
-  background-color: #1c1a19;
-  padding: 0 30px 0 30px;
+  width: 550px;
 }
 
 .about-me-col h1 {
   color: #ff6b00;
-  font-family: Crete Round, serif;
-  font-size: 60px;
+  font-family: 'Crete Round', serif;
+  font-size: 72px;
   font-weight: 400;
-  padding-top: 70px;
+  padding-top: 100px;
 }
 
 .about-me-col p {
-  font-family: Inter, serif;
-  font-weight: 200;
-  font-size: 14px;
+  font-family: 'Inter', serif;
+  font-weight: 400;
+  font-size: 20px;
   color: #fff;
 }
 
-.about-me-col button {
+.get-resume {
   background-color: #ff6b00;
   color: #fff;
   padding: 10px 15px;
   font-size: 15px;
-  font-family: Inter, serif;
-  margin-top: 30px;
+  font-family: 'Inter', serif;
+  margin-top: 40px;
   border: none;
+}
+
+.get-resume:hover {
+  background-color: #fff;
+  color: #ff6b00;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-family: 'Inter', serif;
+  margin-top: 40px;
+  border: 1px solid #ff6b00;
+}
+
+.f-line {
+  margin-top: 10px;
 }
 
 .footer-nav {
@@ -336,29 +372,36 @@
   color: #fff;
 }
 
-.f-line {
-  padding: 0 30px;
-  margin-top: 10px;
+.f-lang {
+  padding: 80px 0;
+  margin: 30px 0;
+  display: flex;
 }
 
-.f-lang {
-  padding: 80px 30px;
-  margin-top: 30px;
-  text-align: center;
+.languages {
+  min-width: 400px;
+}
+
+.frameworks {
+  min-width: 400px;
+}
+
+.skills {
+  min-width: 400px;
 }
 
 .img-lang {
   display: flex;
-  justify-content: center;
 }
 
 .img-lang img {
   padding-right: 10px;
-  height: 30px;
+  height: 25px;
+  margin-top: 5px;
 }
 
 .img-lang h1 {
-  font-family: inter, serif;
+  font-family: 'Inter', serif;
 }
 
 .f-lang ul {
@@ -369,14 +412,13 @@
 
 .f-lang ul li {
   margin-top: 20px;
-  font-family: inter, serif;
+  font-family: 'Inter', serif;
   font-size: 20px;
   margin-bottom: 30px;
 }
 
 .img-frameWorks {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
