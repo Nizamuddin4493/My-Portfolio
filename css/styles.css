@@ -63,9 +63,19 @@
 .row {
   max-width: 100%;
   display: flex;
+<<<<<<< HEAD
   flex-direction: row;
   margin: 0 3%;
   padding-top: 150px;
+=======
+  flex-direction: column;
+  background-image: url("../images/Group.png");
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  background-size: 120px 210px;
+  min-height: 600px;
+  transition: background 3s;
+>>>>>>> main
 }
 
 .content {
@@ -224,9 +234,14 @@
   flex-direction: column;
   background-image: url("../images/Img-Placeholder.png");
   background-repeat: no-repeat, repeat;
+<<<<<<< HEAD
   background-size: cover;
   height: 400px;
   width: 100%;
+=======
+  height: 380px;
+  transition: background 3s;
+>>>>>>> main
 }
 
 .content-data-btn {
@@ -285,7 +300,12 @@
   background-image: url("../images/about-me-bg.png");
   background-position: right, left top;
   background-repeat: no-repeat, repeat;
+<<<<<<< HEAD
   background-size: 520px 310px;
+=======
+  background-size: 120px 210px;
+  transition: background 3s;
+>>>>>>> main
 }
 
 .about-me {
