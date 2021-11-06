@@ -50,6 +50,7 @@
   background-repeat: no-repeat, repeat;
   background-size: 120px 210px;
   min-height: 600px;
+  transition: background 3s;
 }
 
 .content {
@@ -175,6 +176,7 @@
   background-image: url("../images/Img-Placeholder.png");
   background-repeat: no-repeat, repeat;
   height: 380px;
+  transition: background 3s;
 }
 
 .content-data-btn {
@@ -250,6 +252,7 @@
   background-position: right bottom, left top;
   background-repeat: no-repeat, repeat;
   background-size: 120px 210px;
+  transition: background 3s;
 }
 
 .about-me {
