@@ -109,16 +109,13 @@
   margin-top: 15px;
 }
 
-.main-body {
-  padding: 0 10%;
-}
-
 .heading-line {
   display: flex;
   flex-direction: row;
   align-items: center;
   height: 50px;
   margin-top: 100px;
+  padding: 0 10%;
 }
 
 .heading-line h2 {
@@ -137,6 +134,7 @@
 .story-section {
   display: flex;
   margin-top: 100px;
+  padding: 0 10%;
 }
 
 .story-image img {
@@ -214,25 +212,14 @@
   margin-top: 10px;
 }
 
-.grid-temp {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto;
-  grid-row-gap: 50px;
-  margin-top: 20px;
-}
-
-.r1-c1, .r1-c2, .r1-c3 {
-  width: 320px;
-}
-
 .content-data {
   display: flex;
   flex-direction: column;
   background-image: url("../images/Img-Placeholder.png");
   background-repeat: no-repeat, repeat;
+  background-size: cover;
   height: 400px;
-  width: 320px;
+  width: 100%;
 }
 
 .content-data-btn {
@@ -276,36 +263,6 @@
   color: #fff;
   margin-top: 20px;
   padding-left: 10px;
-}
-
-.lang-btn2 {
-  margin-left: 10px;
-  display: grid;
-  grid-template-columns: 60px 93px auto;
-}
-
-.lang-btn2 ul {
-  display: flex;
-}
-
-.lang-btn2 ul li {
-  list-style: none;
-  padding-right: 10px;
-}
-
-.lang-btn-2 {
-  background-color: #000;
-  opacity: 40%;
-  border: none;
-  color: #fff;
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
-  font-family: 'Inter', serif;
-  margin-top: 10px;
-  margin-bottom: 20px;
 }
 
 .footer-main {
@@ -431,11 +388,15 @@
   padding-right: 20px;
 }
 
+.contact-form-main {
+  display: flex;
+  padding: 0 10%;
+  width: 100%;
+  margin-top: 100px;
+}
+
 .motivation {
   min-height: 250px;
-  padding: 50px 30px;
-  text-align: center;
-  padding-bottom: 0;
 }
 
 .motivation p {
@@ -444,13 +405,7 @@
   font-style: normal;
   font-size: 32px;
   line-height: 44px;
-  text-align: center;
   font-weight: 700;
-}
-
-.contact-form {
-  display: flex;
-  justify-content: center;
 }
 
 input {
@@ -464,7 +419,7 @@ input {
 
 input[name="name"],
 input[name="email-address"] {
-  width: 290px;
+  width: 600px;
   height: 48px;
 }
 
@@ -477,6 +432,7 @@ input:placeholder-shown {
 
 .form-input {
   border: none;
+  width: 100%;
   border-bottom: 1px solid #dbd8d7;
 }
 
@@ -529,16 +485,25 @@ textarea:focus {
   border: none;
   cursor: pointer;
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 17px;
   line-height: 24px;
   padding: 12px;
-  margin-left: 30%;
   margin-bottom: 100px;
 }
 
 .submit:hover {
-  opacity: 60%;
+  font-family: 'Inter', sans-serif;
+  color: #ff6b00;
+  background: #fff;
+  border: 1px solid #ff6b00;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 12px;
+  margin-bottom: 100px;
 }
 
 .e-mail {
@@ -551,7 +516,7 @@ textarea:focus {
 .f-social {
   margin: auto;
   align-items: center;
-  height: 135px;
+  height: 70px;
 }
 
 .f-social ul {
@@ -569,11 +534,177 @@ textarea:focus {
   padding-left: 15px;
 }
 
-hr.f-line {
-  margin: auto;
-  width: 100px;
-  border: 2px solid black;
-  border-radius: 20%;
-  margin-bottom: 20px;
-  padding-top: 7%;
+.grit-temp {
+  display: grid;
+  grid-template-columns: repeat(3, 370px);
+  grid-template-rows: repeat(2, 435px);
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  padding: 0 10%;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+.cart-1 {
+  width: 370px;
+  height: 435px;
+  background-image: url("../images/card-1.png");
+  background-repeat: no-repeat, repeat;
+  border: 1px solid #000;
+}
+
+.card-btn {
+  height: 58px;
+  width: 369px;
+  background: #f55800;
+  color: #fff;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 377px;
+}
+
+.card-btn:hover {
+  height: 58px;
+  width: 369px;
+  background: #fff;
+  color: #f55800;
+  border: 1px solid #f55800;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 377px;
+}
+
+.cart-2 {
+  width: 370px;
+  height: 435px;
+  background-image: url("../images/card-2.png");
+  background-repeat: no-repeat, repeat;
+}
+
+.cart-2 h2 {
+  font-family: 'Crete Round', serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: #fff;
+  padding-left: 10px;
+  margin-top: 180px;
+}
+
+.cart-2 p {
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #fff;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.card-btn-off {
+  padding-left: 10px;
+  margin-top: 40px;
+}
+
+.cart-3 {
+  width: 370px;
+  height: 435px;
+  background-image: url("../images/card-3.png");
+  background-repeat: no-repeat, repeat;
+}
+
+.cart-3 h2 {
+  font-family: 'Crete Round', serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: #fff;
+  padding-left: 10px;
+  margin-top: 210px;
+}
+
+.cart-3 p {
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #fff;
+  padding-left: 10px;
+  margin-top: 20px;
+}
+
+.cart-4 {
+  width: 370px;
+  height: 435px;
+  background-image: url("../images/card-4.png");
+  background-repeat: no-repeat, repeat;
+}
+
+.cart-4 h2 {
+  font-family: 'Crete Round', serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: #fff;
+  padding-left: 10px;
+  margin-top: 180px;
+}
+
+.cart-4 p {
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #fff;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.cart-5 {
+  width: 370px;
+  height: 435px;
+  background-image: url("../images/card-2.png");
+  background-repeat: no-repeat, repeat;
+}
+
+.cart-5 h2 {
+  font-family: 'Crete Round', serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: #fff;
+  padding-left: 10px;
+  margin-top: 180px;
+}
+
+.cart-5 p {
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #fff;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.cart-6 {
+  width: 370px;
+  height: 435px;
+  background-image: url("../images/card-3.png");
+  background-repeat: no-repeat, repeat;
+}
+
+.cart-6 h2 {
+  font-family: 'Crete Round', serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: #fff;
+  padding-left: 10px;
+  margin-top: 210px;
+}
+
+.cart-6 p {
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #fff;
+  padding-left: 10px;
+  margin-top: 20px;
 }
