@@ -1,17 +1,20 @@
 @media (max-width: 994px) {
-	.nvbg ul {
+  .nvbg ul {
 		display: none;
 	}
+
 	.burger-icon {
 		display: flex;
 		text-align: right;
 		float: right;
 	}
+
 	.rowcontainer {
 		background-color: #1c1a19;
 		background-image: none;
 		height: 560px;
 	}
+
 	.row {
 		max-width: 1350px;
 		margin: auto;
@@ -24,9 +27,11 @@
 		background-size: 120px 210px;
 		min-height: 600px;
 	}
+
 	.social-d {
 		display: none;
 	}
+
 	.social {
 		display: flex;
 		margin: 10px 0 0 50px;
@@ -78,7 +83,6 @@
 		grid-row-gap: 10px;
 		margin-top: 10px;
 		margin-bottom: 100px;
-		border: 1px solid red;
 	}
 
 	.about-me-bg {
@@ -101,7 +105,6 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		border: 1px solid red;
 	}
 
 	.languages {
