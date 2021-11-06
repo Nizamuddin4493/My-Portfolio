@@ -29,6 +29,10 @@
   font-size: 20px;
 }
 
+.burger-icon {
+  display: none;
+}
+
 .nav-icon {
   flex: 1;
 }
@@ -91,22 +95,25 @@
   max-width: 500px;
 }
 
-.social {
-  /* border: 1px solid yellow; */
+.social-d {
   max-width: 50px;
 }
 
-.social ul {
+.social-d ul {
   display: block;
   margin-top: 60px;
   list-style: none;
 }
 
-.social ul li {
+.social-d ul li {
   justify-content: space-around;
   align-items: center;
   max-width: 200px;
   margin-top: 15px;
+}
+
+.social {
+  display: none;
 }
 
 .heading-line {
@@ -288,7 +295,7 @@
 .about-me-col h1 {
   color: #ff6b00;
   font-family: 'Crete Round', serif;
-  font-size: 72px;
+  font-size: 65px;
   font-weight: 400;
   padding-top: 100px;
 }
@@ -546,7 +553,7 @@ textarea:focus {
 }
 
 .cart-1 {
-  width: 370px;
+  max-width: 370px;
   height: 435px;
   background-image: url("../images/card-1.png");
   background-repeat: no-repeat, repeat;
@@ -580,7 +587,7 @@ textarea:focus {
 }
 
 .cart-2 {
-  width: 370px;
+  max-width: 370px;
   height: 435px;
   background-image: url("../images/card-2.png");
   background-repeat: no-repeat, repeat;
@@ -610,7 +617,7 @@ textarea:focus {
 }
 
 .cart-3 {
-  width: 370px;
+  max-width: 370px;
   height: 435px;
   background-image: url("../images/card-3.png");
   background-repeat: no-repeat, repeat;
