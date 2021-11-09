@@ -200,7 +200,7 @@
 }
 
 .see-prjct-btn button {
-  background-color: #ff6b00;
+  background: #f55800;
   border: none;
   color: #fff;
   padding: 10px 10px;
@@ -214,8 +214,8 @@
 
 .see-prjct-btn button:hover {
   background-color: #fff;
-  border: 1px solid #ff6b00;
-  color: #ff6b00;
+  border: 1px solid #f55800;
+  color: #f55800;
   padding: 10px 10px;
   text-align: center;
   text-decoration: none;
@@ -226,7 +226,7 @@
 }
 
 .footer-main {
-  color: #ff6b00;
+  color: #f55800;
   background-color: #1c1a19;
   min-height: 1100px;
   width: 100%;
@@ -248,7 +248,7 @@
 }
 
 .about-me-col h2 {
-  color: #ff6b00;
+  color: #f55800;
   font-family: "Crete Round", serif;
   font-size: 65px;
   font-weight: 400;
@@ -264,7 +264,7 @@
 }
 
 .get-resume {
-  background-color: #ff6b00;
+  background-color: #f55800;
   color: #fff;
   padding: 10px 15px;
   font-size: 15px;
@@ -275,12 +275,12 @@
 
 .get-resume:hover {
   background-color: #fff;
-  color: #ff6b00;
+  color: #f55800;
   padding: 10px 15px;
   font-size: 15px;
   font-family: "Inter", serif;
   margin-top: 40px;
-  border: 1px solid #ff6b00;
+  border: 1px solid #f55800;
 }
 
 .f-line {
@@ -402,7 +402,7 @@ input:placeholder-shown {
 }
 
 input:focus {
-  outline: 1px solid #ff6b00;
+  outline: 1px solid #f55800;
 }
 
 textarea {
@@ -427,7 +427,7 @@ textarea::placeholder {
 }
 
 textarea:focus {
-  outline: 1px solid #ff6b00;
+  outline: 1px solid #f55800;
 }
 
 .contact-form ul {
@@ -446,7 +446,7 @@ textarea:focus {
 .submit {
   font-family: "Inter", sans-serif;
   color: white;
-  background: #ff6b00;
+  background: #f55800;
   border: none;
   cursor: pointer;
   text-align: center;
@@ -459,9 +459,9 @@ textarea:focus {
 
 .submit:hover {
   font-family: "Inter", sans-serif;
-  color: #ff6b00;
+  color: #f55800;
   background: #fff;
-  border: 1px solid #ff6b00;
+  border: 1px solid #f55800;
   cursor: pointer;
   text-align: center;
   font-weight: bold;
