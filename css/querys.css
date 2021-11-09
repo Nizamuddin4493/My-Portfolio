@@ -168,7 +168,7 @@
   .card-btn {
     height: 58px;
     width: 100%;
-    background: #f55800;
+    background: #ff5e00;
     color: #fff;
     border: none;
     font-family: 'Inter', sans-serif;
@@ -182,8 +182,8 @@
     height: 58px;
     width: 100%;
     background: #fff;
-    color: #f55800;
-    border: 1px solid #f55800;
+    color: #ff5e00;
+    border: 1px solid #ff5e00;
     font-family: 'Inter', sans-serif;
     font-size: 17px;
     font-weight: 700;
