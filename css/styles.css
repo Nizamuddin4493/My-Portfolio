@@ -194,13 +194,13 @@
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
-  font-family: inter, serif;
+  font-family: 'Inter', serif;
   margin-right: 10px;
   margin-top: 10px;
 }
 
 .see-prjct-btn button {
-  background: #161616;
+  background: #f55800;
   border: none;
   color: #fff;
   padding: 10px 10px;
@@ -215,8 +215,8 @@
 
 .see-prjct-btn button:hover {
   background-color: #fff;
-  border: 1px solid #161616;
-  color: #161616;
+  border: 1px solid #f55800;
+  color: #f55800;
   padding: 10px 10px;
   text-align: center;
   text-decoration: none;
@@ -266,7 +266,7 @@
 }
 
 .get-resume {
-  background-color: #161616;
+  background-color: #f55800;
   color: #fff;
   padding: 10px 15px;
   font-size: 15px;
@@ -278,12 +278,12 @@
 
 .get-resume:hover {
   background-color: #fff;
-  color: #161616;
+  color: #f55800;
   padding: 10px 15px;
   font-size: 15px;
   font-family: "Inter", serif;
   margin-top: 40px;
-  border: 1px solid #161616;
+  border: 1px solid #f55800;
   font-weight: 700;
 }
 
@@ -450,7 +450,7 @@ textarea:focus {
 .submit {
   font-family: "Inter", sans-serif;
   color: #fff;
-  background: #161616;
+  background: #f55800;
   border: none;
   cursor: pointer;
   text-align: center;
@@ -463,9 +463,9 @@ textarea:focus {
 
 .submit:hover {
   font-family: "Inter", sans-serif;
-  color: #161616;
+  color: #f55800;
   background: #fff;
-  border: 1px solid #161616;
+  border: 1px solid #f55800;
   cursor: pointer;
   text-align: center;
   font-weight: 700;
@@ -525,7 +525,7 @@ textarea:focus {
 .card-btn {
   height: 58px;
   width: 369px;
-  background: #161616;
+  background: #f55800;
   color: #fff;
   border: none;
   font-family: "Inter", sans-serif;
@@ -539,8 +539,8 @@ textarea:focus {
   height: 58px;
   width: 369px;
   background: #fff;
-  color: #161616;
-  border: 1px solid #161616;
+  color: #f55800;
+  border: 1px solid #f55800;
   font-family: "Inter", sans-serif;
   font-size: 17px;
   font-weight: 700;
