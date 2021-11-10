@@ -15,7 +15,7 @@
   display: flex;
   align-items: center;
   padding: 20px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -24,7 +24,7 @@
 .navbar a {
   text-decoration: none;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 20px;
 }
@@ -46,7 +46,7 @@
 .nav-icon ul li a {
   list-style: none;
   padding-left: 30px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 15px;
 }
@@ -81,14 +81,14 @@
 
 .headline h1 {
   color: #ff6b00;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 50px;
   font-weight: 400;
 }
 
 .supperting-text h2 {
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   margin-top: 15px;
   font-weight: 500;
   font-size: 32px;
@@ -97,7 +97,7 @@
 .description {
   color: #fff;
   margin-top: 15px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   max-width: 500px;
 }
 
@@ -132,7 +132,7 @@
 }
 
 .heading-line h2 {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
@@ -160,7 +160,7 @@
 }
 
 .h2-tag h2 {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-size: 40px;
   font-weight: 400;
   margin-top: 5px;
@@ -169,7 +169,7 @@
 }
 
 .story-content p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -194,13 +194,13 @@
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
-  font-family: inter, serif;
+  font-family: 'Inter', serif;
   margin-right: 10px;
   margin-top: 10px;
 }
 
 .see-prjct-btn button {
-  background-color: #ff6b00;
+  background: #f55800;
   border: none;
   color: #fff;
   padding: 10px 10px;
@@ -208,79 +208,27 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   margin-top: 10px;
+  font-weight: 700;
 }
 
 .see-prjct-btn button:hover {
-  background-color: #fff;
-  border: 1px solid #ff6b00;
-  color: #ff6b00;
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
   padding: 10px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   margin-top: 10px;
-}
-
-.content-data {
-  display: flex;
-  flex-direction: column;
-  background-image: url("../images/Img-Placeholder.png");
-  background-repeat: no-repeat, repeat;
-  background-size: cover;
-  width: 100%;
-  height: 380px;
-  transition: background 3s;
-}
-
-.content-data-btn {
-  background-color: #ff6b00;
-  border: none;
-  color: #fff;
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  font-family: 'inter', serif;
-  width: 320px;
-  margin-top: 35px;
-}
-
-.content-data-btn:hover {
-  background-color: #fff;
-  border: 1px solid #ff6b00;
-  color: #ff6b00;
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  font-family: 'Inter', serif;
-  margin-top: 35px;
-}
-
-.content-data h1 {
-  font-family: 'Crete Round', serif;
-  color: #fff;
-  font-size: 30px;
-  margin-top: 90px;
-  padding-left: 10px;
-}
-
-.content-data p {
-  font-family: Inter, serif;
-  font-size: 15px;
-  color: #fff;
-  margin-top: 20px;
-  padding-left: 10px;
+  font-weight: 700;
 }
 
 .footer-main {
-  color: #ff6b00;
+  color: #f55800;
   background-color: #1c1a19;
   min-height: 1100px;
   width: 100%;
@@ -298,41 +246,45 @@
 
 .about-me {
   width: 550px;
+  text-shadow: 1px 1px #1c1a19;
 }
 
-.about-me-col h1 {
-  color: #ff6b00;
-  font-family: 'Crete Round', serif;
+.about-me-col h2 {
+  color: #f55800;
+  font-family: "Crete Round", serif;
   font-size: 65px;
   font-weight: 400;
   padding-top: 100px;
 }
 
 .about-me-col p {
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-weight: 400;
   font-size: 20px;
   color: #fff;
+  text-shadow: 1px 1px #252425;
 }
 
 .get-resume {
-  background-color: #ff6b00;
+  background-color: #f55800;
   color: #fff;
   padding: 10px 15px;
   font-size: 15px;
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   margin-top: 40px;
   border: none;
+  font-weight: 700;
 }
 
 .get-resume:hover {
-  background-color: #fff;
-  color: #ff6b00;
+  background-color: #fff5e1;
+  color: #f55800;
   padding: 10px 15px;
   font-size: 15px;
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   margin-top: 40px;
-  border: 1px solid #ff6b00;
+  border: 1px solid #f55800;
+  font-weight: 700;
 }
 
 .f-line {
@@ -372,8 +324,9 @@
   margin-top: 5px;
 }
 
-.img-lang h1 {
+.img-lang h2 {
   font-family: 'Inter', serif;
+  font-size: 32px;
 }
 
 .f-lang ul {
@@ -384,7 +337,7 @@
 
 .f-lang ul li {
   margin-top: 20px;
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-size: 20px;
   margin-bottom: 30px;
 }
@@ -394,8 +347,9 @@
   align-items: center;
 }
 
-.img-frameWorks h1 {
+.img-frameWorks h2 {
   font-family: 'Inter', sans-serif;
+  font-size: 32px;
 }
 
 .img-frameWorks img {
@@ -415,7 +369,7 @@
 }
 
 .motivation p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #172b4d;
   font-style: normal;
   font-size: 32px;
@@ -425,7 +379,7 @@
 
 input {
   color: #091e42;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 15px;
@@ -439,7 +393,7 @@ input[name="email-address"] {
 }
 
 input:placeholder-shown {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #6b778c;
   font-size: 15px;
   line-height: 24px;
@@ -452,12 +406,12 @@ input:placeholder-shown {
 }
 
 input:focus {
-  outline: 1px solid #ff6b00;
+  outline: 1px solid #f55800;
 }
 
 textarea {
   color: #3c3a39;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 15px;
@@ -468,7 +422,7 @@ textarea {
 }
 
 textarea::placeholder {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: normal;
@@ -477,7 +431,7 @@ textarea::placeholder {
 }
 
 textarea:focus {
-  outline: 1px solid #ff6b00;
+  outline: 1px solid #f55800;
 }
 
 .contact-form ul {
@@ -494,9 +448,9 @@ textarea:focus {
 }
 
 .submit {
-  font-family: 'Inter', sans-serif;
-  color: white;
-  background: #ff6b00;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  background: #f55800;
   border: none;
   cursor: pointer;
   text-align: center;
@@ -508,13 +462,13 @@ textarea:focus {
 }
 
 .submit:hover {
-  font-family: 'Inter', sans-serif;
-  color: #ff6b00;
-  background: #fff;
-  border: 1px solid #ff6b00;
+  font-family: "Inter", sans-serif;
+  color: #f55800;
+  background: #fff5e1;
+  border: 1px solid #f55800;
   cursor: pointer;
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 17px;
   line-height: 24px;
   padding: 12px;
@@ -574,7 +528,7 @@ textarea:focus {
   background: #f55800;
   color: #fff;
   border: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 17px;
   font-weight: 700;
   text-align: center;
@@ -584,10 +538,10 @@ textarea:focus {
 .card-btn:hover {
   height: 58px;
   width: 369px;
-  background: #fff;
+  background: #fff5e1;
   color: #f55800;
   border: 1px solid #f55800;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 17px;
   font-weight: 700;
   text-align: center;
@@ -602,7 +556,7 @@ textarea:focus {
 }
 
 .cart-2 h2 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 32px;
   font-weight: 400;
   color: #fff;
@@ -611,7 +565,7 @@ textarea:focus {
 }
 
 .cart-2 p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 17px;
   font-weight: 400;
   color: #fff;
@@ -632,7 +586,7 @@ textarea:focus {
 }
 
 .cart-3 h2 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 32px;
   font-weight: 400;
   color: #fff;
@@ -641,7 +595,7 @@ textarea:focus {
 }
 
 .cart-3 p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 17px;
   font-weight: 400;
   color: #fff;
@@ -657,7 +611,7 @@ textarea:focus {
 }
 
 .cart-4 h2 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 32px;
   font-weight: 400;
   color: #fff;
@@ -666,7 +620,7 @@ textarea:focus {
 }
 
 .cart-4 p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 17px;
   font-weight: 400;
   color: #fff;
@@ -682,7 +636,7 @@ textarea:focus {
 }
 
 .cart-5 h2 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 32px;
   font-weight: 400;
   color: #fff;
@@ -691,7 +645,7 @@ textarea:focus {
 }
 
 .cart-5 p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 17px;
   font-weight: 400;
   color: #fff;
@@ -707,7 +661,7 @@ textarea:focus {
 }
 
 .cart-6 h2 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 32px;
   font-weight: 400;
   color: #fff;
@@ -716,7 +670,7 @@ textarea:focus {
 }
 
 .cart-6 p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 17px;
   font-weight: 400;
   color: #fff;
