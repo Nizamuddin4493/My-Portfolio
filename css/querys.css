@@ -170,6 +170,7 @@
     width: 100%;
     background: #f55800;
     color: #fff;
+    filter: contrast(9);
     border: none;
     font-family: 'Inter', sans-serif;
     font-size: 17px;
@@ -184,6 +185,7 @@
     background: #fff;
     color: #f55800;
     border: 1px solid #f55800;
+    filter: contrast(9);
     font-family: 'Inter', sans-serif;
     font-size: 17px;
     font-weight: 700;
