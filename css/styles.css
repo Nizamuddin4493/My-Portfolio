@@ -200,7 +200,7 @@
 }
 
 .see-prjct-btn button {
-  background: #ff5e00;
+  background: #161616;
   border: none;
   color: #fff;
   padding: 10px 10px;
@@ -210,12 +210,13 @@
   font-size: 16px;
   font-family: "Inter", serif;
   margin-top: 10px;
+  font-weight: 700;
 }
 
 .see-prjct-btn button:hover {
   background-color: #fff;
-  border: 1px solid #ff5e00;
-  color: #ff5e00;
+  border: 1px solid #161616;
+  color: #161616;
   padding: 10px 10px;
   text-align: center;
   text-decoration: none;
@@ -223,6 +224,7 @@
   font-size: 16px;
   font-family: "Inter", serif;
   margin-top: 10px;
+  font-weight: 700;
 }
 
 .footer-main {
@@ -264,23 +266,25 @@
 }
 
 .get-resume {
-  background-color: #ff5e00;
+  background-color: #161616;
   color: #fff;
   padding: 10px 15px;
   font-size: 15px;
   font-family: "Inter", serif;
   margin-top: 40px;
   border: none;
+  font-weight: 700;
 }
 
 .get-resume:hover {
   background-color: #fff;
-  color: #ff5e00;
+  color: #161616;
   padding: 10px 15px;
   font-size: 15px;
   font-family: "Inter", serif;
   margin-top: 40px;
-  border: 1px solid #ff5e00;
+  border: 1px solid #161616;
+  font-weight: 700;
 }
 
 .f-line {
@@ -445,8 +449,8 @@ textarea:focus {
 
 .submit {
   font-family: "Inter", sans-serif;
-  color: white;
-  background: #ff5e00;
+  color: #fff;
+  background: #161616;
   border: none;
   cursor: pointer;
   text-align: center;
@@ -459,12 +463,12 @@ textarea:focus {
 
 .submit:hover {
   font-family: "Inter", sans-serif;
-  color: #ff5e00;
+  color: #161616;
   background: #fff;
-  border: 1px solid #ff5e00;
+  border: 1px solid #161616;
   cursor: pointer;
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 17px;
   line-height: 24px;
   padding: 12px;
@@ -521,7 +525,7 @@ textarea:focus {
 .card-btn {
   height: 58px;
   width: 369px;
-  background: #ff5e00;
+  background: #161616;
   color: #fff;
   border: none;
   font-family: "Inter", sans-serif;
@@ -535,8 +539,8 @@ textarea:focus {
   height: 58px;
   width: 369px;
   background: #fff;
-  color: #ff5e00;
-  border: 1px solid #ff5e00;
+  color: #161616;
+  border: 1px solid #161616;
   font-family: "Inter", sans-serif;
   font-size: 17px;
   font-weight: 700;
