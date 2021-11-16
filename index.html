@@ -21,7 +21,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Roboto&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Poppins:ital,wght@0,300;1,200&family=Roboto&display=swap" rel="stylesheet">
-
+  <script src="js/script.js" defer></script>
 </head>
 <body>
     <header>
@@ -39,7 +39,7 @@
                   </nav>
               </div>
         </div>
-        <div class="rowcontainer">
+        <div id="portfolio-section" class="rowcontainer">
           <section class="row">
             <div class="social-d">
               <ul>
@@ -141,7 +141,7 @@
         </div>
       </div>
     </main>
-    <footer>
+    <footer id="about-section">
       <div class="footer-main">
         <div class="about-me-bg">
           <div class="about-me">
@@ -196,7 +196,7 @@
           </div>
         </div>
       </div>
-      <div class="contact-form-main">
+      <div id="contact-section" class="contact-form-main">
         <div class="motivation">
           <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
         </div>
@@ -232,5 +232,15 @@
       </div>
      
     </footer>
+    <div class="menu invisible">
+      <div class="close_btn"><img src="images/close.png" alt="close Icon"></div>
+      <div class="menu-items">
+        <ul>
+          <li id="portfolio"><a href="#portfolio-section">Portfolio</a></li>
+          <li id="about"><a href="#about-section">About</a></li>
+          <li id="contact"><a href="#contact-section">Contact</a></li>
+        </ul>
+      </div>
+    </div>
 </body>
 </html>
