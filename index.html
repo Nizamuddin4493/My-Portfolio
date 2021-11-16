@@ -21,7 +21,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Roboto&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Poppins:ital,wght@0,300;1,200&family=Roboto&display=swap" rel="stylesheet">
-
+  <script src="js/script.js" defer></script>
 </head>
 <body>
     <header>
@@ -39,7 +39,7 @@
                   </nav>
               </div>
         </div>
-        <div class="rowcontainer">
+        <div id="portfolio-section" class="rowcontainer">
           <section class="row">
             <div class="social-d">
               <ul>
@@ -141,7 +141,7 @@
         </div>
       </div>
     </main>
-    <footer>
+    <footer id="about-section">
       <div class="footer-main">
         <div class="about-me-bg">
           <div class="about-me">
@@ -196,7 +196,7 @@
           </div>
         </div>
       </div>
-      <div class="contact-form-main">
+      <div id="contact-section" class="contact-form-main">
         <div class="motivation">
           <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
         </div>
@@ -233,11 +233,11 @@
      
     </footer>
     <div class="menu invisible">
-      <img src="images/close.svg" alt="close Icon">
+      <div class="close_btn"><img src="images/close.svg" alt="close Icon"></div>
       <ul class="menu-items">
-        <li>Portfolio</li>
-        <li>About</li>
-        <li>Contact</li>
+        <a href="#portfolio-section"><li id="portfolio">Portfolio</li></a>
+        <a href="#about-section"><li id="about">About</li></a>
+        <a href="#contact-section"><li id="contact">Contact</li></a>
       </ul>
     </div>
 </body>
