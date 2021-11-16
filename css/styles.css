@@ -692,11 +692,16 @@ textarea:focus {
   height: 100vh;
 }
 
-.menu-items li {
+.menu-items ul li {
   margin-bottom: 25px;
   padding-bottom: 10px;
   border-bottom: 1px solid #6f6c6b;
   list-style: none;
+}
+
+.menu-items ul li a {
+  color: #fff5e1;
+  text-decoration: none;
 }
 
 .close_btn img {
