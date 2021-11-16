@@ -699,6 +699,11 @@ textarea:focus {
   list-style: none;
 }
 
+.menu-items li a {
+  color: #fff5e1;
+  text-decoration: none;
+}
+
 .close_btn img {
   width: 20px;
   height: 20px;
@@ -718,3 +723,4 @@ textarea:focus {
 .burger-icon:hover {
   cursor: pointer;
 }
+
