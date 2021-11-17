@@ -723,3 +723,67 @@ textarea:focus {
 .burger-icon:hover {
   cursor: pointer;
 }
+
+.popup {
+  border: 1px solid #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.pop-body {
+  background-color: #fff;
+  margin: 7% 9%;
+  padding: 20px 20px;
+}
+
+.popheading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popheading h2 {
+  font-family: 'Crete Round', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: #172b4d;
+}
+
+.popheading img {
+  width: 15px;
+  height: 15px;
+  margin: auto 0;
+}
+
+.pop-img-p {
+  display: flex;
+  margin-top: 30px;
+}
+
+.paragraph p {
+  margin-left: 15px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #344563;
+}
+
+.popbtn {
+  display: flex;
+  align-self: flex-end;
+  margin: 175px 0 0 15px;
+  height: 53px;
+}
+
+.popbtn ul {
+  list-style: none;
+  display: flex;
+  height: auto;
+}
+
+.popbtn ul li {
+  margin-right: 10px;
+}
+
+.btn-img {
+  margin-left: 15px;
+}
