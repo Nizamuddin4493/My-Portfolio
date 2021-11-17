@@ -728,6 +728,11 @@ textarea:focus {
   border: 1px solid #fff;
   width: 100%;
   height: 100%;
+  background-image: url('../images/my_portfolio.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
 }
 
 .pop-body {
