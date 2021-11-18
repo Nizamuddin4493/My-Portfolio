@@ -29,3 +29,21 @@ contact.addEventListener("click", () => {
 const close_menu = () => {
     menuBody.classList.toggle("invisible");
 };
+
+// Code for Form Validation
+
+const setError =  (error) => {
+  let element = document.querySelector('.formError').innerHTML = error;
+}
+
+const validateForm = () => {
+  let returnVal = true;
+  let email = document.forms['portfolioForm']['email-address'].value;
+  if (email === email.toLowerCase()) {
+    return returnVal;
+  } else {
+    setError('* Please make sure the email is in LowerCase');
+    returnVal = false;
+  }
+  return returnVal;
+}
