@@ -774,6 +774,22 @@ textarea:focus {
 .pop-img-p {
   display: flex;
   margin-top: 30px;
+  flex: 1;
+}
+
+.popup-img {
+  display: flex;
+  flex: 1.5;
+}
+
+.popup-img img {
+  width: 100%;
+}
+
+.p-btn {
+  width: auto;
+  display: block;
+  flex: 1;
 }
 
 .paragraph p {
@@ -787,7 +803,7 @@ textarea:focus {
 .popbtn {
   display: flex;
   align-self: flex-end;
-  margin: 175px 0 0 15px;
+  margin: 190px 0 0 15px;
   height: 53px;
 }
 

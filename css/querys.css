@@ -170,7 +170,6 @@
     width: 100%;
     background: #f55800;
     color: #fff;
-    filter: contrast(9);
     border: none;
     font-family: 'Inter', sans-serif;
     font-size: 17px;
@@ -185,7 +184,6 @@
     background: #fff5e1;
     color: #f55800;
     border: 1px solid #f55800;
-    filter: contrast(9);
     font-family: 'Inter', sans-serif;
     font-size: 17px;
     font-weight: 700;
@@ -316,5 +314,22 @@
     color: #fff;
     padding-left: 10px;
     margin-top: 20px;
+  }
+
+  .pop-img-p {
+    display: block;
+  }
+
+  .pop-img img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+  }
+
+  .popbtn {
+    display: flex;
+    align-self: flex-end;
+    margin: 20px 0 0 15px;
+    height: 53px;
   }
 }

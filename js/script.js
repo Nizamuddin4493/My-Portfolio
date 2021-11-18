@@ -1,41 +1,47 @@
-let menu = document.querySelector(".burger-icon");
-let menuBody = document.querySelector(".menu")
-let close = document.querySelector(".close_btn");
-let clsoePopupBtn = document.querySelector(".popup_close");
-let popup = document.querySelector(".popup");
+const menu = document.querySelector('.burger-icon');
 
-let portfolio = document.querySelector("#portfolio");
-let about = document.querySelector("#about");
-let contact = document.querySelector("#contact");
+const menuBody = document.querySelector('.menu');
 
-menu.addEventListener("click", () => {
-    close_menu();
-});
+const close = document.querySelector('.close_btn');
 
-close.addEventListener("click", () => {
-    close_menu();
-});
+const clsoePopupBtn = document.querySelector('.popup_close');
 
-portfolio.addEventListener("click", () => {
-    close_menu();
-});
+const popup = document.querySelector('.popup');
 
-about.addEventListener("click", () => {
-    close_menu();
-});
+const portfolio = document.querySelector('#portfolio');
 
-contact.addEventListener("click", () => {
-    close_menu();
-});
+const about = document.querySelector('#about');
 
-clsoePopupBtn.addEventListener("click", () => {
-    close_popup();
-});
+const contact = document.querySelector('#contact');
 
-const close_menu = () => {
-    menuBody.classList.toggle("invisible");
+const closeMenu = () => {
+  menuBody.classList.toggle('invisible');
 };
 
-const close_popup = () => {
-    popup.classList.toggle("invisible");
+const closePopup = () => {
+  popup.classList.toggle('invisible');
 };
+
+menu.addEventListener('click', () => {
+  closeMenu();
+});
+
+close.addEventListener('click', () => {
+  closeMenu();
+});
+
+portfolio.addEventListener('click', () => {
+  closeMenu();
+});
+
+about.addEventListener('click', () => {
+  closeMenu();
+});
+
+contact.addEventListener('click', () => {
+  closeMenu();
+});
+
+clsoePopupBtn.addEventListener('click', () => {
+  closePopup();
+});
