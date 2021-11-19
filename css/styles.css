@@ -727,3 +727,14 @@ textarea:focus {
 .formError {
   color: red;
 }
+
+.form-sub-btn {
+  border: 1px solid red;
+  display: flex;
+  max-height: 30vh;
+}
+
+.form-err {
+  padding-top: 15px;
+  padding-left: 10px;
+}

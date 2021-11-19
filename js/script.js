@@ -42,7 +42,7 @@ const validateForm = () => {
   if (email === email.toLowerCase()) {
     return returnVal;
   } else {
-    setError('* Please make sure the email is in LowerCase');
+    setError('* Please make sure the Email is in Lower Case');
     returnVal = false;
   }
   return returnVal;
