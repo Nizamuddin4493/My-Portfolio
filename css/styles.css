@@ -725,11 +725,12 @@ textarea:focus {
 }
 
 .formError {
-  color: red;
+  color: #f55800;
+  font-family: 'Inter', serif;
+  font-size: 16px;
 }
 
 .form-sub-btn {
-  border: 1px solid red;
   display: flex;
   max-height: 30vh;
 }

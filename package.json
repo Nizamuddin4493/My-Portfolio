@@ -17,6 +17,10 @@
   },
   "feature-portfolio": "https://github.com/Nizamuddin4493/My-Portfolio#readme",
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.3",
     "hint": "^6.1.4",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
