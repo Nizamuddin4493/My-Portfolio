@@ -723,3 +723,7 @@ textarea:focus {
 .burger-icon:hover {
   cursor: pointer;
 }
+
+.formError {
+  color: red;
+}
