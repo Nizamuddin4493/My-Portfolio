@@ -48,3 +48,5 @@ const validateForm = () => {
   }
   return returnVal;
 };
+
+validateForm();
