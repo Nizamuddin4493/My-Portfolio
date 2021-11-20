@@ -548,6 +548,31 @@ textarea:focus {
   margin-top: 377px;
 }
 
+.card-btn-2 {
+  height: 58px;
+  width: 369px;
+  background: #f55800;
+  color: #fff;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 21px;
+}
+
+.card-btn-2:hover {
+  height: 58px;
+  width: 369px;
+  background: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+}
+
 .cart-2 {
   max-width: 370px;
   height: 435px;
@@ -561,7 +586,7 @@ textarea:focus {
   font-weight: 400;
   color: #fff;
   padding-left: 10px;
-  margin-top: 180px;
+  margin-top: 160px;
 }
 
 .cart-2 p {
@@ -575,7 +600,7 @@ textarea:focus {
 
 .card-btn-off {
   padding-left: 10px;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .cart-3 {
@@ -591,7 +616,7 @@ textarea:focus {
   font-weight: 400;
   color: #fff;
   padding-left: 10px;
-  margin-top: 210px;
+  margin-top: 191px;
 }
 
 .cart-3 p {
@@ -616,7 +641,7 @@ textarea:focus {
   font-weight: 400;
   color: #fff;
   padding-left: 10px;
-  margin-top: 180px;
+  margin-top: 160px;
 }
 
 .cart-4 p {
@@ -641,7 +666,7 @@ textarea:focus {
   font-weight: 400;
   color: #fff;
   padding-left: 10px;
-  margin-top: 180px;
+  margin-top: 160px;
 }
 
 .cart-5 p {
@@ -666,7 +691,7 @@ textarea:focus {
   font-weight: 400;
   color: #fff;
   padding-left: 10px;
-  margin-top: 210px;
+  margin-top: 191px;
 }
 
 .cart-6 p {
@@ -716,12 +741,109 @@ textarea:focus {
 }
 
 .invisible {
-  display: none;
+  display: none !important;
 }
 
 .close_btn:hover,
 .burger-icon:hover {
   cursor: pointer;
+}
+
+.popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  backdrop-filter: blur(10px);
+}
+
+.pop-body {
+  background: #fff;
+  width: 85%;
+  padding: 20px;
+}
+
+.popheading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popheading h2 {
+  font-family: 'Crete Round', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: #172b4d;
+}
+
+.popheading img {
+  width: 15px;
+  height: 15px;
+  margin: auto 0;
+}
+
+.pop-img-p {
+  display: flex;
+  margin-top: 30px;
+  flex: 1;
+}
+
+.popup-img {
+  display: flex;
+  flex: 1.5;
+}
+
+.popup-img img {
+  width: 100%;
+}
+
+.p-btn {
+  width: auto;
+  display: block;
+  flex: 1;
+}
+
+.paragraph p {
+  margin-left: 15px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #344563;
+}
+
+.popbtn {
+  display: flex;
+  align-self: flex-end;
+  margin: 190px 0 0 15px;
+  height: 53px;
+}
+
+.popbtn ul {
+  list-style: none;
+  display: flex;
+  height: auto;
+}
+
+.popbtn ul li {
+  margin-right: 10px;
+}
+
+.btn-img {
+  margin-left: 15px;
 }
 
 .formError {

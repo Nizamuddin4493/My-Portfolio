@@ -170,7 +170,6 @@
     width: 100%;
     background: #f55800;
     color: #fff;
-    filter: contrast(9);
     border: none;
     font-family: 'Inter', sans-serif;
     font-size: 17px;
@@ -185,12 +184,36 @@
     background: #fff5e1;
     color: #f55800;
     border: 1px solid #f55800;
-    filter: contrast(9);
     font-family: 'Inter', sans-serif;
     font-size: 17px;
     font-weight: 700;
     text-align: center;
     margin-top: 377px;
+  }
+
+  .card-btn-2 {
+    height: 58px;
+    width: 100%;
+    background: #f55800;
+    color: #fff;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 21px;
+  }
+
+  .card-btn-2:hover {
+    height: 58px;
+    width: 100%;
+    background: #fff5e1;
+    color: #f55800;
+    border: 1px solid #f55800;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
   }
 
   .cart-2 {
@@ -206,7 +229,7 @@
     font-weight: 400;
     color: #fff;
     padding-left: 10px;
-    margin-top: 180px;
+    margin-top: 140px;
   }
 
   .cart-2 p {
@@ -231,7 +254,7 @@
     font-weight: 400;
     color: #fff;
     padding-left: 10px;
-    margin-top: 210px;
+    margin-top: 171px;
   }
 
   .cart-3 p {
@@ -256,7 +279,7 @@
     font-weight: 400;
     color: #fff;
     padding-left: 10px;
-    margin-top: 180px;
+    margin-top: 140px;
   }
 
   .cart-4 p {
@@ -281,7 +304,7 @@
     font-weight: 400;
     color: #fff;
     padding-left: 10px;
-    margin-top: 180px;
+    margin-top: 140px;
   }
 
   .cart-5 p {
@@ -306,7 +329,7 @@
     font-weight: 400;
     color: #fff;
     padding-left: 10px;
-    margin-top: 210px;
+    margin-top: 171px;
   }
 
   .cart-6 p {
@@ -316,6 +339,27 @@
     color: #fff;
     padding-left: 10px;
     margin-top: 20px;
+  }
+
+  .popup {
+    overflow: scroll;
+  }
+
+  .pop-img-p {
+    display: block;
+  }
+
+  .pop-img img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+  }
+
+  .popbtn {
+    display: flex;
+    align-self: flex-end;
+    margin: 20px 0 0 15px;
+    height: 53px;
   }
 
   .form-err {
