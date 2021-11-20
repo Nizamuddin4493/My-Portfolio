@@ -201,7 +201,7 @@
     font-size: 17px;
     font-weight: 700;
     text-align: center;
-    margin-top: 11px;
+    margin-top: 21px;
   }
 
   .card-btn-2:hover {
@@ -339,6 +339,10 @@
     color: #fff;
     padding-left: 10px;
     margin-top: 20px;
+  }
+
+  .popup {
+    overflow: scroll;
   }
 
   .pop-img-p {
