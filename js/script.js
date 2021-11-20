@@ -33,13 +33,10 @@ const popupArr = [
 
 const cartsContainer = document.querySelector('#cartsContainer');
 const menu = document.querySelector('.burger-icon');
-const menuBody = document.querySelector('.menu');
 const close = document.querySelector('.close_btn');
 const clsoePopupBtn = document.querySelector('.popup_close');
 const popup = document.querySelector('.popup');
-const menuM = document.querySelector('.burger-icon');
 const menuBody = document.querySelector('.menuList');
-const close = document.querySelector('.close_btn');
 const portfolio = document.querySelector('#portfolio');
 const about = document.querySelector('#about');
 const contact = document.querySelector('#contact');
@@ -52,7 +49,7 @@ const closePopup = () => {
   popup.classList.toggle('invisible');
 };
 
-menuM.addEventListener('click', () => {
+menu.addEventListener('click', () => {
   closeMenu();
 });
 
