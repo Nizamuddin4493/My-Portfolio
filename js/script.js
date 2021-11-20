@@ -119,4 +119,3 @@ const validateForm = () => {
 };
 
 validateForm();
-
