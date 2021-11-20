@@ -1,6 +1,6 @@
 const popupArr = [
   {
-    title: 'Data Dashboard healthcare',
+    title: 'Profesional Art Printing Data More',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     piture: './images/Tags.png',
   },
