@@ -36,7 +36,10 @@ const menu = document.querySelector('.burger-icon');
 const menuBody = document.querySelector('.menu');
 const close = document.querySelector('.close_btn');
 const clsoePopupBtn = document.querySelector('.popup_close');
-const popup = document.querySelector('.popup');
+const popup = document.querySelect
+const menu = document.querySelector('.burger-icon');
+const menuBody = document.querySelector('.menu');
+const close = document.querySelector('.close_btn');
 const portfolio = document.querySelector('#portfolio');
 const about = document.querySelector('#about');
 const contact = document.querySelector('#contact');
@@ -98,3 +101,25 @@ const popelement = (cartDesign) => {
 popupArr.forEach((element) => {
   popelement(element);
 });
+
+// Code for Form Validation
+
+const setError = (error) => {
+  document.querySelector('.formError').innerHTML = error;
+};
+
+const validateForm = () => {
+  let returnVal = true;
+  const email = document.querySelector('#f-email').value;
+  if (email === email.toLowerCase()) {
+    return returnVal;
+  }
+  if (email !== email.toLowerCase()) {
+    setError('* Please make sure the Email is in Lower Case');
+    returnVal = false;
+  }
+  return returnVal;
+};
+
+validateForm();
+

@@ -845,3 +845,19 @@ textarea:focus {
 .btn-img {
   margin-left: 15px;
 }
+
+.formError {
+  color: #f55800;
+  font-family: 'Inter', serif;
+  font-size: 16px;
+}
+
+.form-sub-btn {
+  display: flex;
+  max-height: 30vh;
+}
+
+.form-err {
+  padding-top: 15px;
+  padding-left: 10px;
+}

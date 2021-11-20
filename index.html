@@ -162,13 +162,15 @@
         <div class="motivation">
           <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
         </div>
-        <form class="contact-form" action="https://formspree.io/f/mjvjqwaa" method="POST">
+        <form class="contact-form" action="https://formspree.io/f/mjvjqwaa" method="POST" name="portfolioForm" onsubmit="return validateForm()">
           <ul>
             <li>
               <input type="text" name="name" class="form-input" placeholder="Full name" maxlength="30" required>
             </li>
             <li>
-              <input type="email" name="email-address" class="form-input" placeholder="Email address" required>
+              <div id="femail">
+                <input type="email" name="email-address" class="form-input" id="f-email" placeholder="Email address" required>
+            </div>                           
             </li>
             <li class="comment">
               <textarea name="comment" maxlength="500" class="form-input" placeholder="Enter text here" required></textarea>
@@ -176,10 +178,13 @@
             <li>
               <div class="contact-illustration"></div>
             </li>
-            <li>
-              <input class="submit" type="submit" name="submit" value="Get in touch">
-            </li>
-          </ul>
+            <li> 
+              <div class="form-sub-btn">
+                <input class="submit" type="submit" name="submit" value="Get in touch">
+                <div class="form-err"><span class="formError"></span></div>
+            </div>
+            </li>  
+          </ul>     
         </form>
       </div>
       <hr>
